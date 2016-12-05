@@ -17,7 +17,7 @@
 			<div class="col-sm-9">
 				<section class="panel">
 					<header class="panel-heading">
-						Tambah Data Akun
+						Ubah Data Akun
 					</header>
 					<div class="panel-body">
 						<form class="form-horizontal" role="form" method="POST" action="<?=base_url()?>index.php/akun/simpan_ubah/" enctype="multipart/form-data">
