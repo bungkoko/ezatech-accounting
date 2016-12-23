@@ -6,7 +6,7 @@
 				<div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
 			</div>
 			<!--logo start-->
-			<a href="<?=base_url()?>index.php/admin/" class="logo"><span>Hira</span> Express</a>
+			<a href="<?=base_url()?>index.php/admin/" class="logo"><span>Ezatech</span> Accounting</a>
 			<!--logo end-->
 			<div class="nav notify-row" id="top_menu">
 				
@@ -18,13 +18,13 @@
 					<li class="dropdown">
 						<a data-toggle="dropdown" class="dropdown-toggle" href="#">
 							<?php
-								if ($this->session->userdata('hira-jk') == "L") {
+								if ($this->session->userdata('acct-jk') == "Pria") {
 									echo "<img alt='' src='".base_url()."assets/admin/img/avatar-mini.jpg'>";
 								} else {
 									echo "<img alt='' src='".base_url()."assets/admin/img/avatar-mini3.jpg'>";
 								}
 							?>
-							<span class="username"><?=$this->session->userdata('hira-nama')?></span>
+							<span class="username"><?=$this->session->userdata('acct-nama')?></span>
 							<b class="caret"></b>
 						</a>
 						<ul class="dropdown-menu extended logout">
